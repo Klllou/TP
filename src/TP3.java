@@ -14,12 +14,11 @@ public class TP3 {
         do {
             System.out.println("Quelle largeur pour le chat (min largeur = 7) ?");
             width = scanner.nextInt();
-        } while (width < 7);
+        } while(width<7);
         do {
-            System.out.println("Quelle hauteur pour le chat (min hauteur = 3) ?");
-            heigh = scanner.nextInt();
-        } while (heigh < 3);
-
+        System.out.println("Quelle hauteur pour le chat (min hauteur = 3) ?");
+        heigh = scanner.nextInt();
+        } while(heigh<3);
         System.out.print("|\\");
         for (int i = 1; i < width - 3; i++) {
             System.out.print("-");
@@ -47,6 +46,8 @@ public class TP3 {
         System.out.print("_/ ");
     }
 }
+
+
 
 
 
